@@ -20,22 +20,22 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>devcleaner</id>
-    <version>0.2.4</version>
+    <version>0.1.0</version>
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
     <title>DevCleaner</title>
-    <authors>Yuniel Acosta</authors>
+    <authors>Yuniel Acosta Pérez</authors>
     <projectUrl>https://github.com/DevCleaner/devcleaner</projectUrl>
     <licenseUrl>https://github.com/DevCleaner/devcleaner/blob/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/DevCleaner/devcleaner</projectSourceUrl>
     <docsUrl>https://github.com/DevCleaner/devcleaner/blob/main/README.md</docsUrl>
     <bugTrackerUrl>https://github.com/DevCleaner/devcleaner/issues</bugTrackerUrl>
-    <tags>cli cross-platform terminal k8s tui monitoring devcleaner kubernetes rust</tags>
-    <summary>A fast and simple dashboard for Kubernetes written in Rust.</summary>
+    <tags>cli cross-platform terminal npm devcleaner node node_modules cleaner rust</tags>
+    <summary>A tool to search for node_modules an clean the projects selected</summary>
     <description>
-    A fast and simple dashboard for Kubernetes written in Rust.
+    A tool to search for node_modules an clean the projects selected
 
     **Usage**
     To use, run `devcleaner` in a terminal.
@@ -43,7 +43,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     For more [documentation and usage](https://github.com/DevCleaner/devcleaner/blob/main/README.md), see the [official repo](https://github.com/DevCleaner/devcleaner).
     
     </description>
-    <releaseNotes>https://github.com/DevCleaner/devcleaner/releases/tag/v0.2.4/</releaseNotes>
+    <releaseNotes>https://github.com/DevCleaner/devcleaner/releases/tag/v0.1.0/</releaseNotes>
   </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->
