@@ -1,0 +1,18 @@
+name: CI
+on:
+  push:
+    branches: main
+
+jobs:
+  update:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Build & publish nupkg
+        run: |
+          choco pack
+          echo y | choco install devcleaner -dv -s .
+          $version = devcleaner -V
+          $version = $version -replace " ", "."
+          choco push $version.nupkg -s https://push.chocolatey.org/ --api-key ${{ secrets.CHOCO_API_KEY }};
