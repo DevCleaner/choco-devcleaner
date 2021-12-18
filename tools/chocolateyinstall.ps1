@@ -2,8 +2,8 @@ $ErrorActionPreference = 'Stop';
 
 $PackageName = 'devcleaner'
 $toolsDir    = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url64       = 'https://github.com/DevCleaner/devcleaner/releases/download/v0.1.1.beta/devcleaner-windows.tar.gz'
-$checksum64  = '20bcd1adf7cbd0d0b2c6c2cb959cdc4299efff1da669ea01c512fbaa1d8435bf'
+$url64       = 'https://github.com/DevCleaner/devcleaner/releases/download/v0.1.2/devcleaner-windows.tar.gz'
+$checksum64  = '9da545a16c1e2ef836dc5acd39f3eda0600e1fe9b7058a9ec131bb71f9b5ad7f'
 
 $packageArgs = @{
   packageName   = $packageName
