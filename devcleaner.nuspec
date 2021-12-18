@@ -20,7 +20,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>devcleaner</id>
-    <version>0.1.1</version>
+    <version>0.1.1.beta</version>
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
@@ -43,7 +43,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     For more [documentation and usage](https://github.com/DevCleaner/devcleaner/blob/main/README.md), see the [official repo](https://github.com/DevCleaner/devcleaner).
     
     </description>
-    <releaseNotes>https://github.com/DevCleaner/devcleaner/releases/tag/v0.1.1/</releaseNotes>
+    <releaseNotes>https://github.com/DevCleaner/devcleaner/releases/tag/v0.1.1.beta/</releaseNotes>
   </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->
